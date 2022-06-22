@@ -1,0 +1,80 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/* nav start here */
+.nav-menu{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+}
+
+.nav-menu a{
+    padding:10px 20px;
+
+}
+/* nav end here */
+/* profile starts here */
+.image1 img{
+    height: 150px;
+    width: 150px;
+  
+}
+.image2 img{
+    height: 150px;
+    width: 150px;
+
+}
+/* profile end here */
+
+/* About Start here */
+
+
+.about-header{
+    width: 100%;
+}
+.about-image{
+    height: 200px;
+    width: 50%;
+    position: relative;
+}
+.about-image img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+}
+.about p{
+    text-align: left;
+}
+
+/* About end here */
+
+/* Skill Starts here */
+.skill-details{
+    display: flex;
+    flex-direction: row;
+}
+  
+/* Skill End here */
+
+/* Contact Starts here */
+    
+/* Contact End here */
+.footer-area{
+    display: flex;
+    flex-direction: row;
+}
+.footer-nav{
+    display: flex;
+    flex-direction: row;
+}

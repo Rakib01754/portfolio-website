@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Serif Bengali', serif;
+}
+p{
+    font-size: 1.2rem;
+    color: white;
+}
+h1{
+    font-size: 3rem;
+    color: white;
+    padding: 10px;
+    font-family: 'Galada', cursive;
+}
+h2{
+    font-family: 'Galada', cursive;
+    font-size: 40px;
+    color: white;
+}
+h3{
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+.dotted-hr{
+    border:5px dotted black;
+    border-bottom: none;
+    width:60%;
+    margin:10px auto;
+}
+[class*=col-]{
+    float: left;
+ }
+ [class*=col-]{
+     width: 100%;
+ 
+ }
+/* nav start here */
+nav{
+    background-color:#929394;
+    padding: 10px;
+    text-align: center;
+}
+.nav-logo img{
+    width: 80px;
+    height:80px;
+    margin-top: 5px;
+}
+
+.nav-menu{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.nav-menu a{
+    background-color: rgb(225, 236, 236);
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 2px;
+}
+.nav-menu a:hover{
+    background-color: rgb(2, 2, 2);
+    color: white;
+    
+
+}
+.header-menu::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* nav end here */
+
+
+/* profile starts here */
+    .profile{
+        background-image: url(images/developer.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 900px;
+        opacity: 0.75;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;   
+    }
+    .profile-content{
+        text-align: center;
+        padding: 60px 40px;
+    }
+
+    .profile-content h1{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 50px;
+    
+}
+.image1 img{
+    position: absolute;
+    right: 40px;
+    top:40px;
+    height: 100px;
+    width: 100px;
+    transition: 2s;
+}
+.image2 img{
+    position: absolute;
+    left: 40px;
+    bottom:40px;
+    height: 100px;
+    width: 100px;
+    transition: 2s;
+}
+.image1 img:hover, .image2 img:hover{
+    transform:scale(1.5) rotate(360deg);
+    
+
+}
+.profile::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+
+/* profile end here */
+
+/* About Start here */
+
+.about{
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: #929394;
+   
+}
+
+.about-image img{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.about-hr hr{
+    width: auto;
+    margin: 0 auto;
+}
+.about a{
+    text-decoration: none;
+    color: white;
+}
+.cv-button{
+    padding: 10px 25px;
+    margin-top:20px;
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    
+}
+.cv-button:hover{
+    background-color: white;
+    color:black;
+}
+
+.about::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+
+
+/* About end here */
+/* Skill Start here */
+    .skill{
+        text-align: center;
+        padding: 40px;
+        background-color:#929394;
+    }
+ .card{
+        margin: 5px;
+        border: 1px solid black;
+       
+    }
+.card:hover{
+        box-shadow: 2px 5px 7px 4px rgb(241, 234, 234);
+    }
+    .card-logo img{
+        margin-top: 5px;
+    }
+
+    .card-desc span{
+        display: block;
+        font-size: 1.5rem;
+        color: white;
+    }
+    .card-desc{
+     margin-top: 20px;
+    }
+    .card-desc .bar{
+        padding: 15px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .skill-details::after{
+        clear: both;
+        display: table;
+        content: '';
+    }
+
+/* Skill End here */
+/* Contact Starts here */
+    .contact{
+        background-color: #929394;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .contact-form, .social-contact{
+        margin-top: 20px;
+        padding: 20px;
+        color: white;
+    }
+    .label{
+        display: block;
+        font-size: 1.5rem;
+    }
+    form input, textarea{
+        padding: 10px;
+        width: 100%;
+        margin: 5px 0px;
+    }
+    .send-me{
+        padding: 10px 20px;
+        margin: 10px;
+        background-color: black;
+        color: white;
+        font-weight: bold;
+    }
+    .send-me:hover{
+        
+        background-color: white;
+        color: black;
+    }
+    .social-box{
+        margin-top: 20px;
+    }
+    .social-box button{
+            font-size: 3rem;
+            border:none;
+            border-radius: 40px;
+            width: 33.33%;
+            margin: 15px;
+            transition: 2s;
+         }
+    .social-box button:hover{
+        cursor: pointer;
+        background-color: black;
+        color: white;
+        transform: scale(1.2) rotate(360deg);
+
+    }
+
+ .contact::after{
+    content: '';
+    display: table;
+    clear: both;
+ }
+
+/* Contact End here */
+/* Footer Starts Here */
+ .footer-area{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    text-align: center;
+ }
+ .footer-nav{
+    display: flex;
+    flex-direction: column; 
+    background-color: rgb(20, 131, 221);
+    text-align: center;
+ }
+ .footer-nav a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: yellow;
+
+ }
+ .footer-nav a:hover{
+    color: white;
+ }
+/* Footer Ends Here */
